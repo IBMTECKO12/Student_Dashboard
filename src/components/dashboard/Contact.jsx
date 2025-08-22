@@ -19,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Placeholder for form submission logic (e.g., API call)
+
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       setError("Please fill out all fields.");
       return;

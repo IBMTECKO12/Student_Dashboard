@@ -1,4 +1,3 @@
-// Updated src/context/AuthContext.jsx
 import { createContext, useContext, useEffect, useState } from "react";
 import { auth } from "../firebase/firebaseConfig";
 import { 
@@ -10,7 +9,6 @@ import {
   signInWithPopup 
 } from "firebase/auth";
 
-// Add Facebook and GitHub providers (ensure they are enabled in Firebase Console)
 import { FacebookAuthProvider } from "firebase/auth";
 import { GithubAuthProvider } from "firebase/auth";
 

@@ -38,7 +38,7 @@ const Register = () => {
     }
   };
 
-  const handleFacebiikRegister = async () => {
+  const handleFacebookRegister = async () => {
     try {
       await facebookLogin();
       navigate("/dashboard");
